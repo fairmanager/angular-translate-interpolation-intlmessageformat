@@ -1,25 +1,29 @@
 {
-  "name": "angular-translate-interpolation-messageformat",
-  "version": "2.18.1",
-  "description": "Uses MessageFormat.js to interpolate strings against some values.",
-  "main": "angular-translate-interpolation-messageformat.js",
+  "name": "angular-translate-interpolation-intlmessageformat",
+  "version": "0.0.1",
+  "description": "Uses intl-messageforma to interpolate strings against some values.",
+  "main": "angular-translate-interpolation-intlmessageformat.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-translate/bower-angular-translate-interpolation-messageformat.git"
+    "url": "https://github.com/fairmanager/angular-translate-interpolation-intlmessageformat.git"
   },
   "keywords": [
     "angular",
     "translate",
-    "messageformat"
+    "messageformat",
+    "intl-messageformat"
   ],
-  "author": "Pascal Precht",
+  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular-translate/angular-translate/issues"
+    "url": "https://github.com/fairmanager/angular-translate-interpolation-intlmessageformat/issues"
   },
-  "homepage": "https://angular-translate.github.io",
-  "dependencies": {
+  "homepage": "https://github.com/fairmanager/angular-translate-interpolation-intlmessageformat",
+  "peerDependencies": {
     "angular-translate": "~2.18.1",
-    "messageformat": "~1.0.2"
+    "intl-messageformat": "^2.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
