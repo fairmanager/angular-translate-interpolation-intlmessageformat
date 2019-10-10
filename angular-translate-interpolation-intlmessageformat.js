@@ -146,7 +146,7 @@ function $translateIntlMessageFormatInterpolation($translateSanitization, $cache
       }
 
       //compiledFunction = $mf.compile(string);
-      compiledFunction = new IntlMessageFormat(string).format;
+      compiledFunction = new IntlMessageFormat.IntlMessageFormat(string).format;
       $cache.put('mf:' + string, compiledFunction);
     }
 

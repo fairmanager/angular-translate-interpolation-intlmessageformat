@@ -21,7 +21,7 @@
   "homepage": "https://github.com/fairmanager/angular-translate-interpolation-intlmessageformat",
   "peerDependencies": {
     "angular-translate": "~2.18.1",
-    "intl-messageformat": "^2.2.0"
+    "intl-messageformat": "^7.3.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
